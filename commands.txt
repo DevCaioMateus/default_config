@@ -54,3 +54,36 @@ git clone https://github.com/pdf/ubuntu-mono-powerline-ttf.git ~/.fonts/ubuntu-m
 fc-cache -vf
 
 # REBOOT!!!!!!!!!!!!!!!!!!!!!
+
+# ESLINT
+
+React (with Next.js)
+Install dependencies:
+
+npm i -D eslint @rocketseat/eslint-config
+Inside .eslintrc.json
+
+{
+  "extends": [
+    "@rocketseat/eslint-config/next", 
+    "next/core-web-vitals"
+  ]
+}
+React (without Next.js)
+Install dependencies:
+
+npm i -D eslint @rocketseat/eslint-config
+Inside .eslintrc.json
+
+{
+  "extends": "@rocketseat/eslint-config/react"
+}
+Node.js
+Install dependencies:
+
+npm i -D eslint @rocketseat/eslint-config
+Inside .eslintrc.json
+
+{
+  "extends": "@rocketseat/eslint-config/node"
+}
